@@ -12,6 +12,8 @@
 		75E13F3320449D0A00155C9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75E13F3120449D0A00155C9F /* Main.storyboard */; };
 		75E13F3520449D0A00155C9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75E13F3420449D0A00155C9F /* Assets.xcassets */; };
 		75E13F3820449D0A00155C9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75E13F3620449D0A00155C9F /* LaunchScreen.storyboard */; };
+		7F3E144120605932004A3074 /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F3E144020605932004A3074 /* Property List.plist */; };
+		7F3E144320605A4D004A3074 /* detailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3E144220605A4D004A3074 /* detailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		75E13F3420449D0A00155C9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75E13F3720449D0A00155C9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75E13F3920449D0A00155C9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F3E144020605932004A3074 /* Property List.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
+		7F3E144220605A4D004A3074 /* detailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +60,12 @@
 			children = (
 				75E13F2D20449D0A00155C9F /* AppDelegate.swift */,
 				75E13F2F20449D0A00155C9F /* ViewController.swift */,
+				7F3E144220605A4D004A3074 /* detailViewController.swift */,
 				75E13F3120449D0A00155C9F /* Main.storyboard */,
 				75E13F3420449D0A00155C9F /* Assets.xcassets */,
 				75E13F3620449D0A00155C9F /* LaunchScreen.storyboard */,
 				75E13F3920449D0A00155C9F /* Info.plist */,
+				7F3E144020605932004A3074 /* Property List.plist */,
 			);
 			path = HackwichFive;
 			sourceTree = "<group>";
@@ -125,6 +131,7 @@
 			files = (
 				75E13F3820449D0A00155C9F /* LaunchScreen.storyboard in Resources */,
 				75E13F3520449D0A00155C9F /* Assets.xcassets in Resources */,
+				7F3E144120605932004A3074 /* Property List.plist in Resources */,
 				75E13F3320449D0A00155C9F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +145,7 @@
 			files = (
 				75E13F3020449D0A00155C9F /* ViewController.swift in Sources */,
 				75E13F2E20449D0A00155C9F /* AppDelegate.swift in Sources */,
+				7F3E144320605A4D004A3074 /* detailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
